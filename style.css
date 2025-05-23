@@ -130,7 +130,7 @@ nav ul li a:hover::after {
 }
 
 .btn:hover {
-    background-color: #5c3a00;
+    background-color: #19005c;
     color: #00a2ff;
     transform: translateY(-3px);
     border-color: #00c3ff;
