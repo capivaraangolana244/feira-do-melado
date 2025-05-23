@@ -131,9 +131,9 @@ nav ul li a:hover::after {
 
 .btn:hover {
     background-color: #5c3a00;
-    color: #ffd700;
+    color: #00a2ff;
     transform: translateY(-3px);
-    border-color: #ffd700;
+    border-color: #00c3ff;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
