@@ -1,4 +1,4 @@
-/* style.css - Estilos para o site Feira do Melado - Tema Roxo */
+/* style.css - Estilos para o site Feira do Melado */
 
 /* Estilos Globais */
 * {
@@ -9,8 +9,8 @@
 }
 
 body {
-    background-color: #f9f0ff;
-    color: #3a003a;
+    background-color: #fff9e6;
+    color: #5c3a00;
     line-height: 1.6;
 }
 
@@ -22,7 +22,7 @@ body {
 
 /* Cabeçalho */
 header {
-    background-color: #5a0d5a;
+    background-color: #8b4513;
     color: white;
     padding: 20px 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -68,7 +68,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #e0b0ff;
+    color: #ffd700;
 }
 
 nav ul li a::after {
@@ -76,7 +76,7 @@ nav ul li a::after {
     position: absolute;
     width: 0;
     height: 2px;
-    background: #e0b0ff;
+    background: #ffd700;
     bottom: 0;
     left: 0;
     transition: width 0.3s;
@@ -88,7 +88,7 @@ nav ul li a:hover::after {
 
 /* Banner Principal */
 .hero {
-    background: linear-gradient(rgba(90, 13, 90, 0.7), rgba(90, 13, 90, 0.7)), url('../images/hero-bg.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero-bg.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -118,8 +118,8 @@ nav ul li a:hover::after {
 
 .btn {
     display: inline-block;
-    background-color: #e0b0ff;
-    color: #3a003a;
+    background-color: #ffd700;
+    color: #5c3a00;
     padding: 12px 30px;
     border-radius: 30px;
     text-decoration: none;
@@ -130,10 +130,10 @@ nav ul li a:hover::after {
 }
 
 .btn:hover {
-    background-color: #3a003a;
-    color: #e0b0ff;
+    background-color: #5c3a00;
+    color: #ffd700;
     transform: translateY(-3px);
-    border-color: #e0b0ff;
+    border-color: #ffd700;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -147,7 +147,7 @@ nav ul li a:hover::after {
     text-align: center;
     margin-bottom: 50px;
     font-size: 2.5rem;
-    color: #5a0d5a;
+    color: #8b4513;
     position: relative;
 }
 
@@ -156,7 +156,7 @@ nav ul li a:hover::after {
     display: block;
     width: 80px;
     height: 4px;
-    background: #e0b0ff;
+    background: #ffd700;
     margin: 15px auto;
     border-radius: 2px;
 }
@@ -174,7 +174,7 @@ nav ul li a:hover::after {
 .about-text h3 {
     font-size: 1.8rem;
     margin-bottom: 20px;
-    color: #3a003a;
+    color: #5c3a00;
 }
 
 .about-text p {
@@ -207,7 +207,7 @@ nav ul li a:hover::after {
 /* Seção Produtos */
 .products {
     padding: 80px 0;
-    background-color: #f9f0ff;
+    background-color: #fff9e6;
 }
 
 .products-grid {
@@ -252,7 +252,7 @@ nav ul li a:hover::after {
 .product-info h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
-    color: #5a0d5a;
+    color: #8b4513;
 }
 
 .product-info p {
@@ -262,7 +262,7 @@ nav ul li a:hover::after {
 
 .price {
     font-weight: bold;
-    color: #3a003a;
+    color: #5c3a00;
     font-size: 1.2rem;
     display: block;
     margin-top: 10px;
@@ -290,17 +290,17 @@ nav ul li a:hover::after {
 }
 
 .schedule-table th {
-    background-color: #5a0d5a;
+    background-color: #8b4513;
     color: white;
     font-weight: 500;
 }
 
 .schedule-table tr:nth-child(even) {
-    background-color: #f9f0ff;
+    background-color: #fff9e6;
 }
 
 .schedule-table tr:hover {
-    background-color: #e8d0ff;
+    background-color: #f5e6c8;
 }
 
 .schedule-table tr:last-child td {
@@ -310,7 +310,7 @@ nav ul li a:hover::after {
 /* Seção Localização */
 .location {
     padding: 80px 0;
-    background-color: #f9f0ff;
+    background-color: #fff9e6;
 }
 
 .map-container {
@@ -330,7 +330,7 @@ nav ul li a:hover::after {
 
 /* Rodapé */
 footer {
-    background-color: #3a003a;
+    background-color: #5c3a00;
     color: white;
     padding: 50px 0 20px;
 }
@@ -345,7 +345,7 @@ footer {
 .footer-column h3 {
     font-size: 1.5rem;
     margin-bottom: 20px;
-    color: #e0b0ff;
+    color: #ffd700;
 }
 
 .footer-column ul {
@@ -363,7 +363,7 @@ footer {
 }
 
 .footer-column ul li a:hover {
-    color: #e0b0ff;
+    color: #ffd700;
     padding-left: 5px;
 }
 
@@ -387,7 +387,7 @@ footer {
 }
 
 .social-links a:hover {
-    color: #e0b0ff;
+    color: #ffd700;
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-3px);
 }
